@@ -86,7 +86,7 @@
                 </tapGestureRecognizer>
                 <exit id="aJ2-m2-IRL" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2229" y="1456"/>
+            <point key="canvasLocation" x="2837" y="846"/>
         </scene>
         <!--Your Meals-->
         <scene sceneID="iLm-FR-gG9">
@@ -97,11 +97,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MealTableViewCell" rowHeight="90" id="GBj-VV-K4h" customClass="MealTableViewCell" customModule="FoodTracker" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MealTableViewCell" rowHeight="90" id="GBj-VV-K4h" customClass="MealTableViewCell" customModule="FoodTracker" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GBj-VV-K4h" id="qqc-M5-hE2">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="89"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="89"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="Hw3-vT-2Fl">
@@ -123,6 +123,7 @@
                                     <outlet property="nameLabel" destination="yzW-cn-tPF" id="k8I-5j-mvB"/>
                                     <outlet property="photoImageView" destination="Hw3-vT-2Fl" id="fUO-cp-Nqz"/>
                                     <outlet property="ratingControl" destination="pZa-rO-tQQ" id="emE-L2-B40"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="eTp-jh-DMr"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -134,7 +135,7 @@
                     <navigationItem key="navigationItem" title="Your Meals" id="Zz3-ea-rQ9">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="eUf-dr-YAx">
                             <connections>
-                                <segue destination="prd-f5-bR8" kind="presentation" id="ajc-vV-3hN"/>
+                                <segue destination="prd-f5-bR8" kind="presentation" identifier="AddItem" id="ajc-vV-3hN"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -177,10 +178,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TpJ-fi-sKC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1417" y="1456"/>
+            <point key="canvasLocation" x="2136" y="1525"/>
         </scene>
     </scenes>
     <resources>
         <image name="defaultPhoto" width="320" height="320"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="eTp-jh-DMr"/>
+    </inferredMetricsTieBreakers>
 </document>
