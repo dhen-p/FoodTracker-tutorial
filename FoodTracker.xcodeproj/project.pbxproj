@@ -12,6 +12,7 @@
 		CD892FFD1CD83962008A4FE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD892FFB1CD83962008A4FE2 /* Main.storyboard */; };
 		CD892FFF1CD83962008A4FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD892FFE1CD83962008A4FE2 /* Assets.xcassets */; };
 		CD8930021CD83962008A4FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8930001CD83962008A4FE2 /* LaunchScreen.storyboard */; };
+		CD89300A1CD864C0008A4FE2 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8930091CD864C0008A4FE2 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CD892FFE1CD83962008A4FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD8930011CD83962008A4FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD8930031CD83962008A4FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8930091CD864C0008A4FE2 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				CD892FF71CD83962008A4FE2 /* AppDelegate.swift */,
 				CD892FF91CD83962008A4FE2 /* ViewController.swift */,
 				CD892FFB1CD83962008A4FE2 /* Main.storyboard */,
+				CD8930091CD864C0008A4FE2 /* RatingControl.swift */,
 				CD892FFE1CD83962008A4FE2 /* Assets.xcassets */,
 				CD8930001CD83962008A4FE2 /* LaunchScreen.storyboard */,
 				CD8930031CD83962008A4FE2 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD892FFA1CD83962008A4FE2 /* ViewController.swift in Sources */,
+				CD89300A1CD864C0008A4FE2 /* RatingControl.swift in Sources */,
 				CD892FF81CD83962008A4FE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
